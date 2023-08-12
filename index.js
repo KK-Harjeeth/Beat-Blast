@@ -11,7 +11,7 @@ function handleClick()
     buttonAnimation(buttonInnerHTML);
     switch(buttonInnerHTML){
         case "a":
-            var audio=new Audio("Beat-Blast/sounds/crash.mp3");
+            var audio=new Audio("./sounds/crash.mp3");
             audio.play();
             break;
         case "s":
