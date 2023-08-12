@@ -15,7 +15,7 @@ function handleClick()
             audio.play();
             break;
         case "s":
-            var audio=new Audio("/Users/kk_harjeeth/Documents/Web Development/Beat-Blast/sounds/kick-bass.mp3");
+            var audio=new Audio("https://github.com/KK-Harjeeth/Beat-Blast/blob/main/sounds/kick-bass.mp3");
             audio.play();
             break;
         case "d":
